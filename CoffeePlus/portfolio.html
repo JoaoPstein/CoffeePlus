@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio | Coffee++ | Cafés Especiais Premium</title>
+    <link rel="stylesheet" href="styles/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <meta
+      name="description"
+      content="Portfólio de projetos de João Silva, desenvolvedor web e mobile. Veja cases de sucesso em web, mobile e design."
+    />
+    <meta
+      name="keywords"
+      content="portfólio, projetos, web, mobile, design, João Silva, desenvolvedor, cases, frontend, backend"
+    />
+    <meta name="author" content="João Silva" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="Portfólio | João Silva" />
+    <meta
+      property="og:description"
+      content="Conheça os principais projetos de João Silva em web, mobile e design."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://coffeeplus.com/portfolio.html" />
+    <meta
+      property="og:image"
+      content="https://coffeeplus.com/images/og-image.jpg"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Portfólio | João Silva" />
+    <meta
+      name="twitter:description"
+      content="Conheça os principais projetos de João Silva em web, mobile e design."
+    />
+    <meta
+      name="twitter:image"
+      content="https://coffeeplus.com/images/twitter-image.jpg"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <div class="nav-container">
+          <div class="logo">
+            <i class="fas fa-coffee"></i>
+            <span>João Silva</span>
+          </div>
+          <ul class="nav-menu">
+            <li><a href="index.html" class="nav-link">Início</a></li>
+            <li>
+              <a href="portfolio.html" class="nav-link active">Portfólio</a>
+            </li>
+            <li><a href="servicos.html" class="nav-link">Serviços</a></li>
+            <li><a href="contato.html" class="nav-link">Contato</a></li>
+          </ul>
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-header">
+        <div class="container">
+          <h1>Meu Portfólio</h1>
+          <p>Conheça alguns dos meus projetos mais recentes</p>
+        </div>
+      </section>
+
+      <section class="portfolio">
+        <div class="container">
+          <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">Todos</button>
+            <button class="filter-btn" data-filter="web">Web</button>
+            <button class="filter-btn" data-filter="mobile">Mobile</button>
+            <button class="filter-btn" data-filter="design">Design</button>
+          </div>
+
+          <div class="projects-grid">
+            <div class="project-card" data-category="web">
+              <div class="project-image">
+                <img
+                  src="/placeholder.svg?height=250&width=400"
+                  alt="E-commerce Platform"
+                />
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <a href="#" class="project-link"
+                      ><i class="fas fa-external-link-alt"></i
+                    ></a>
+                    <a href="#" class="project-link"
+                      ><i class="fab fa-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="project-info">
+                <h3>E-commerce Platform</h3>
+                <p>
+                  Plataforma completa de e-commerce desenvolvida com React e
+                  Node.js
+                </p>
+                <div class="project-tags">
+                  <span class="tag">React</span>
+                  <span class="tag">Node.js</span>
+                  <span class="tag">MongoDB</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card" data-category="mobile">
+              <div class="project-image">
+                <img
+                  src="/placeholder.svg?height=250&width=400"
+                  alt="Task Manager App"
+                />
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <a href="#" class="project-link"
+                      ><i class="fas fa-external-link-alt"></i
+                    ></a>
+                    <a href="#" class="project-link"
+                      ><i class="fab fa-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="project-info">
+                <h3>Task Manager App</h3>
+                <p>
+                  Aplicativo móvel para gerenciamento de tarefas com
+                  sincronização em nuvem
+                </p>
+                <div class="project-tags">
+                  <span class="tag">React Native</span>
+                  <span class="tag">Firebase</span>
+                  <span class="tag">Redux</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card" data-category="web">
+              <div class="project-image">
+                <img
+                  src="/placeholder.svg?height=250&width=400"
+                  alt="Dashboard Analytics"
+                />
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <a href="#" class="project-link"
+                      ><i class="fas fa-external-link-alt"></i
+                    ></a>
+                    <a href="#" class="project-link"
+                      ><i class="fab fa-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="project-info">
+                <h3>Dashboard Analytics</h3>
+                <p>
+                  Dashboard interativo para análise de dados com gráficos em
+                  tempo real
+                </p>
+                <div class="project-tags">
+                  <span class="tag">Vue.js</span>
+                  <span class="tag">D3.js</span>
+                  <span class="tag">Python</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card" data-category="design">
+              <div class="project-image">
+                <img
+                  src="/placeholder.svg?height=250&width=400"
+                  alt="Brand Identity"
+                />
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <a href="#" class="project-link"
+                      ><i class="fas fa-external-link-alt"></i
+                    ></a>
+                    <a href="#" class="project-link"
+                      ><i class="fab fa-behance"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="project-info">
+                <h3>Brand Identity</h3>
+                <p>Identidade visual completa para startup de tecnologia</p>
+                <div class="project-tags">
+                  <span class="tag">Figma</span>
+                  <span class="tag">Illustrator</span>
+                  <span class="tag">Branding</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2024 João Silva. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts/jquery-effects.js"></script>
+  </body>
+</html>

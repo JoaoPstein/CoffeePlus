@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Produtos | Coffee++ | Cafés Especiais Premium</title>
+    <link rel="stylesheet" href="styles/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <meta
+      name="description"
+      content="Descubra nossa seleção de cafés especiais premium. Arábica, Robusta e Blends exclusivos com entrega grátis em todo Brasil."
+    />
+    <meta
+      name="keywords"
+      content="comprar café especial, café arábica premium, café robusta, blend gourmet, café brasileiro, café colombiano"
+    />
+    <meta name="author" content="Coffee++" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="Produtos | Coffee++" />
+    <meta
+      property="og:description"
+      content="Descubra nossa seleção de cafés especiais premium. Arábica, Robusta e Blends exclusivos."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://coffeeplus.com/produtos.html" />
+    <meta
+      property="og:image"
+      content="https://coffeeplus.com/images/og-image.jpg"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Produtos | Coffee++" />
+    <meta
+      name="twitter:description"
+      content="Descubra nossa seleção de cafés especiais premium. Arábica, Robusta e Blends exclusivos."
+    />
+    <meta
+      name="twitter:image"
+      content="https://coffeeplus.com/images/twitter-image.jpg"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <div class="nav-container">
+          <div class="logo">
+            <i class="fas fa-coffee"></i>
+            <span>Coffee++</span>
+          </div>
+          <ul class="nav-menu">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li>
+              <a href="produtos.html" class="nav-link active">Produtos</a>
+            </li>
+            <li><a href="planos.html" class="nav-link">Planos</a></li>
+            <li><a href="contato.html" class="nav-link">Contato</a></li>
+          </ul>
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="page-header">
+      <div class="container">
+        <h1>Nossos Produtos</h1>
+        <p>Descubra nossa seleção de cafés especiais</p>
+      </div>
+    </section>
+
+    <section class="filters">
+      <div class="container">
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-filter="all">Todos</button>
+          <button class="filter-btn" data-filter="arabica">Arábica</button>
+          <button class="filter-btn" data-filter="robusta">Robusta</button>
+          <button class="filter-btn" data-filter="blend">Blend</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="products-section">
+      <div class="container">
+        <div class="products-grid" id="products-grid"></div>
+      </div>
+    </section>
+
+    <div class="modal" id="product-modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modal-body" id="modal-body"></div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <div class="logo">
+              <i class="fas fa-coffee"></i>
+              <span>Coffee++</span>
+            </div>
+            <p>
+              Transformando momentos comuns em experiências extraordinárias
+              através do café.
+            </p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+          <div class="footer-section">
+            <h3>Links Rápidos</h3>
+            <ul>
+              <li><a href="produtos.html">Produtos</a></li>
+              <li><a href="planos.html">Planos</a></li>
+              <li><a href="contato.html">Contato</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Contato</h3>
+            <p><i class="fas fa-phone"></i> (11) 9999-9999</p>
+            <p><i class="fas fa-envelope"></i> contato@coffeeplus.com</p>
+            <p><i class="fas fa-map-marker-alt"></i> São Paulo, SP</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 Coffee++. Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/produtos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts/jquery-effects.js"></script>
+  </body>
+</html>
