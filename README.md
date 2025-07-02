@@ -18,7 +18,7 @@
 
 ## 3. Desafios Enfrentados
 
-- **Padronização entre páginas:** Havia diferenças de estrutura e SEO entre páginas do portfólio e do site Coffee++. Foi necessário unificar o cabeçalho, navegação e meta tags.
+- **Padronização entre páginas:** Havia diferenças de estrutura e SEO entre páginas do site . Foi necessário unificar o cabeçalho, navegação e meta tags.
 - **Responsividade real:** Ajustar grids e componentes para funcionarem bem em todos os dispositivos, inclusive com menu hambúrguer funcional.
 - **Validação de formulários:** Garantir feedback visual, acessibilidade e integração entre JS puro e jQuery.
 - **Efeitos interativos:** Implementar múltiplos efeitos sem prejudicar performance ou usabilidade.
@@ -28,13 +28,19 @@
 > **Instrução:**
 > Abra o site em diferentes dispositivos (desktop, tablet, mobile) e tire capturas de tela das seguintes páginas:
 > - Home (index.html)
+![image](https://github.com/user-attachments/assets/8257e57a-504f-463c-971b-e9153ddfc33c)
+
 > - Produtos (produtos.html)
+![image](https://github.com/user-attachments/assets/bc55861f-25d9-4509-bbf2-f0be310e608a)
+
 > - Planos (planos.html)
+![image](https://github.com/user-attachments/assets/19d5134f-3bcb-41dd-86c6-f316d9278281)
+
 > - Contato (contato.html)
-> - Portfólio (portfolio.html)
-> - Serviços (servicos.html)
->
+![image](https://github.com/user-attachments/assets/2b509964-5127-4c2a-933e-f3d60500d4f8)
+
 > Inclua exemplos dos efeitos interativos (menu mobile aberto, animação de cards, modal de sucesso do formulário, etc.).
+![image](https://github.com/user-attachments/assets/2efdedcb-5643-41b4-bacc-c16f83cfb3a6)
 
 ## 5. Aplicação dos Conceitos Estudados
 
@@ -49,7 +55,3 @@
 1. Basta abrir qualquer arquivo HTML em seu navegador.
 2. Para testar responsividade, redimensione a janela ou utilize o modo mobile do navegador.
 3. Para ver os efeitos, interaja com o menu, cards, formulários e role a página.
-
----
-
-**Dúvidas ou sugestões:** contato@coffeeplus.com 
