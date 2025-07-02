@@ -43,6 +43,8 @@
 
 > Inclua exemplos dos efeitos interativos (menu mobile aberto, animação de cards, modal de sucesso do formulário, etc.).
 ![image](https://github.com/user-attachments/assets/2efdedcb-5643-41b4-bacc-c16f83cfb3a6)
+![image](https://github.com/user-attachments/assets/f56f9c4f-b5be-46f7-8cad-95e0cdaa875e)
+
 
 ## 5. Aplicação dos Conceitos Estudados
 
