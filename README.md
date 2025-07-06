@@ -175,17 +175,23 @@ CoffeePlus/
 
 ### Desktop (1920x1080)
 - **Home**: Hero section com animação de grãos de café
+![image](https://github.com/user-attachments/assets/aed0bc26-f747-44b6-ad8c-4d3da9f87033)
 - **Produtos**: Grid com filtros funcionais
+![image](https://github.com/user-attachments/assets/73ae1120-a094-4f60-b2b8-00b2edc2ea7f)
 - **Planos**: Cards de assinatura
+![image](https://github.com/user-attachments/assets/a9a2df09-e279-403e-9601-b481cd7312e2)
 - **Contato**: Formulário + mapa interativo
+![image](https://github.com/user-attachments/assets/0d9f4b33-97be-44e9-88ee-21b008303690)
+![image](https://github.com/user-attachments/assets/f37928f9-b3f4-4b6a-affb-25a5f6b7ddec)
 
 ### Mobile (375x667)
 - **Navegação**: Menu hambúrguer
+![image](https://github.com/user-attachments/assets/12addabe-dce7-4d3b-9c88-79fcc4f40891)
 - **Layout**: Stack vertical otimizado
+![image](https://github.com/user-attachments/assets/c1460480-8546-4eea-8dda-69bdbcc5646a)
 - **Touch**: Targets de 44px mínimo
+![image](https://github.com/user-attachments/assets/ea89f431-6239-44d5-b66b-f36f68404755)
 - **Performance**: Carregamento otimizado
-
-> **Nota**: As capturas de tela devem ser adicionadas aqui mostrando o resultado final em diferentes dispositivos.
 
 ---
 
