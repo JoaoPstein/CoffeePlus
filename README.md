@@ -2,8 +2,6 @@
 
 ![Coffee++ Logo](https://img.shields.io/badge/Coffee++-Premium%20Cafés-8B4513?style=for-the-badge&logo=coffee)
 
-> Site responsivo para empresa fictícia de cafés especiais, desenvolvido com foco em experiência do usuário, design moderno e funcionalidades interativas.
-
 ## 📋 Índice
 
 - [Sobre o Projeto](#-sobre-o-projeto)
@@ -22,7 +20,7 @@
 
 ## 🎯 Sobre o Projeto
 
-O **Coffee++** é um site completo para uma marca fictícia de cafés especiais, demonstrando competência em desenvolvimento front-end moderno. O projeto inclui páginas informativas, sistema de produtos, planos de assinatura e formulários interativos.
+O **Coffee++** é um site completo para uma marca fictícia de cafés especiais. O projeto inclui páginas informativas, sistema de produtos, planos de assinatura e formulários interativos.
 
 ### Objetivos Alcançados
 - ✅ Design responsivo e moderno
