@@ -14,7 +14,6 @@
 - [Desafios e Soluções](#-desafios-e-soluções)
 - [Performance](#-performance)
 - [Contribuição](#-contribuição)
-- [Licença](#-licença)
 
 ---
 
@@ -300,17 +299,11 @@ function filterProducts(category) {
 
 ---
 
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
 ## 📞 Contato
 
 - **Projeto**: [Coffee++](https://github.com/seu-usuario/coffee-plus)
 - **Email**: contato@coffeeplus.com
-- **LinkedIn**: [](https://www.linkedin.com/in/jo%C3%A3o-stein/)
+- **LinkedIn**: [João Stein](https://www.linkedin.com/in/jo%C3%A3o-stein/)
 
 ---
 
