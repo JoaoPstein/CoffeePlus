@@ -310,7 +310,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 - **Projeto**: [Coffee++](https://github.com/seu-usuario/coffee-plus)
 - **Email**: contato@coffeeplus.com
-- **LinkedIn**: [Seu Nome](https://linkedin.com/in/seu-usuario)
+- **LinkedIn**: [](https://www.linkedin.com/in/jo%C3%A3o-stein/)
 
 ---
 
@@ -320,7 +320,3 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 - [Google Fonts](https://fonts.google.com/) pela tipografia
 - [Google Maps](https://developers.google.com/maps) pelo mapa interativo
 - Comunidade de desenvolvedores web por inspiração e recursos
-
----
-
-**Desenvolvido com ☕ e ❤️ para demonstrar competência em desenvolvimento web moderno.**
