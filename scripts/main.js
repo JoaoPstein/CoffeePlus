@@ -58,7 +58,6 @@ if (newsletterForm) {
     e.preventDefault()
     const email = e.target.querySelector('input[type="email"]').value
 
-    // Simulate API call
     setTimeout(() => {
       showNotification("Obrigado! Você foi cadastrado com sucesso!", "success")
       e.target.reset()
@@ -79,7 +78,7 @@ function showNotification(message, type = "info") {
         </div>
     `
 
-    notification.style.cssText = `
+  notification.style.cssText = `
         position: fixed;
         top: 20px;
         right: 20px;
@@ -245,19 +244,11 @@ function loadFeaturedProducts() {
     featuredContainer.innerHTML = featuredProducts
       .map(
         (product) => {
-          let svg = '';
-          if (product.category === 'arabica') {
-            svg = `<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"><ellipse cx="40" cy="55" rx="32" ry="12" fill="#8B4513"/><ellipse cx="40" cy="50" rx="24" ry="8" fill="#D2691E"/><ellipse cx="40" cy="45" rx="16" ry="5" fill="#F4A460"/><rect x="22" y="10" width="36" height="36" rx="18" fill="#fff" stroke="#8B4513" stroke-width="4"/><ellipse cx="40" cy="28" rx="14" ry="6" fill="#8B4513"/><ellipse cx="40" cy="28" rx="10" ry="4" fill="#D2691E"/><path d="M40 16 Q46 28 40 40" stroke="#fff" stroke-width="2"/><path d="M40 16 Q34 28 40 40" stroke="#fff" stroke-width="2"/><ellipse cx="40" cy="28" rx="4" ry="2" fill="#fff" fill-opacity="0.3"/></svg>`;
-          } else if (product.category === 'robusta') {
-            svg = `<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"><ellipse cx="40" cy="55" rx="30" ry="10" fill="#6B3E26"/><ellipse cx="40" cy="50" rx="20" ry="7" fill="#A0522D"/><rect x="26" y="18" width="28" height="28" rx="14" fill="#fff" stroke="#6B3E26" stroke-width="4"/><ellipse cx="40" cy="32" rx="10" ry="4" fill="#6B3E26"/><ellipse cx="40" cy="32" rx="7" ry="2.5" fill="#A0522D"/><path d="M40 22 Q44 32 40 42" stroke="#fff" stroke-width="2"/><ellipse cx="40" cy="32" rx="2.5" ry="1" fill="#fff" fill-opacity="0.3"/></svg>`;
-          } else if (product.category === 'blend') {
-            svg = `<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"><ellipse cx="32" cy="55" rx="12" ry="6" fill="#8B4513"/><ellipse cx="48" cy="55" rx="12" ry="6" fill="#D2691E"/><ellipse cx="40" cy="55" rx="20" ry="8" fill="#A0522D" fill-opacity="0.5"/><rect x="22" y="20" width="36" height="28" rx="14" fill="#fff" stroke="#A0522D" stroke-width="3"/><ellipse cx="40" cy="34" rx="10" ry="4" fill="#8B4513"/><ellipse cx="40" cy="34" rx="7" ry="2.5" fill="#D2691E"/><ellipse cx="40" cy="34" rx="2.5" ry="1" fill="#fff" fill-opacity="0.3"/></svg>`;
-          } else {
-            svg = `<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="40" cy="40" r="36" fill="#ccc"/></svg>`;
-          }
           return `
               <div class="product-card" onclick="openProductModal(${product.id})">
-                  <div class="product-image">${svg}</div>
+                  <div class="product-image">
+                      <img src="images/coffee.jpg" alt="${product.name}" style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
+                  </div>
                   <div class="product-info">
                       <h3 class="product-name">${product.name}</h3>
                       <p class="product-description">${product.description}</p>
